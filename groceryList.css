@@ -1,0 +1,142 @@
+html {
+	background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+/* IE10+ */ 
+background-image: -ms-linear-gradient(bottom left, #5E5E5E 0%, #D9D9D9 47%, #ededed 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(bottom left, #5E5E5E 0%, #D9D9D9 47%, #ededed 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(bottom left, #5E5E5E 0%, #D9D9D9 47%, #ededed 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0, #5E5E5E), color-stop(47, #D9D9D9), color-stop(100, #ededed));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(bottom left, #5E5E5E 0%, #D9D9D9 47%, #ededed 100%);
+
+/* W3C Markup */ 
+background-image: linear-gradient(to top right, #5E5E5E 0%, #D9D9D9 47%, #ededed 100%);
+}
+
+body {
+	margin: 20px;
+	font-family: 'Rubic';
+}
+
+h1 {
+	color: #0c9b29;
+	font-size: 4.10em;
+	text-align: center;
+	font-family: 'Lato';
+	text-shadow: 2px 2px 2px black;
+}
+
+#display-list {
+	width: 50%;
+	margin: auto;
+	background-color: black;
+	padding: 10px;
+	border: 1px solid goldenrod;
+	border-radius: 5px;
+}
+
+#center {
+	width: 30%;
+	margin: auto;
+}
+
+#list {
+	color: #ece9d6;
+	margin: auto;
+	text-align: center;
+}
+
+#total {
+	color: #2aba47;
+	font-size: 1.5em;
+	text-align: center;
+	margin: 0px;
+}
+
+#listTotal {
+	color: #ece9d6;
+	border-radius: 3px;
+	width: 30%;
+	margin: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: 'Rubik';
+}
+
+#item {
+	width: 60%;
+	margin: auto;
+	font-family: "Rubik";
+}
+
+#price {
+	width: 60%;
+	margin: auto;
+	font-family: "Rubik";
+}
+
+form {
+	width: 39%;
+	height: 4%;
+	margin: auto;
+	padding-left: 24.3%;
+	padding-top: 1%;
+	font-family: 'Lato';
+}
+
+form input, form button {
+	color: #ece9d6;
+	background-color: black;
+	border: 1px solid goldenrod;
+	padding: 5px;
+	left: 300px;
+	border-radius: 5px;
+	font-size: 100%;
+	margin-top: 20px;
+}
+
+#addbutton {
+	background-color: black;
+	color: #ece9d6;
+	border: 1px solid goldenrod;
+	padding: 5px;
+	box-shadow: 0 2px 2px 0 rgb(155, 155, 155);
+	border-radius: 5px;
+	width: 30%;
+	margin: auto;
+	font-family: "Rubik";
+}
+
+#addbutton:hover {
+	color: #ece9d6;
+}
+
+#addbutton:active {
+	background-color: #555555;
+}
+
+form {
+	text-align: left;
+	margin: 0;
+	padding-bottom: 2%;
+}
+
+@media(max-width: 650px) {
+	#total {
+		font-size: 100%;
+	}
+	#listTotal {
+		width: 60%;
+	}
+	#center {
+		width: 80%;
+	}
+}
